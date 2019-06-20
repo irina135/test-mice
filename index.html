@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test</title>
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="main-img">
+    <div class="main-img-background1">
+    </div>
+    <div class="main-img-background2">
+    </div>
+    <div class="main-img-background3">
+    </div>
+
+
+</div>
+<div class="main-container">
+<header>
+    <div class="container-fluid py-2">
+        <div class="row no-gutters align-items-center justify-content-between">
+            <div class="col-2 header-logo">
+                <img src="img/logo.png">
+            </div>
+            <div class="col-8">
+                <nav class="nav justify-content-between">
+                  <a class="nav-link active" href="#">О MiCE</a>
+                  <a class="nav-link" href="#">Реализованные проекты</a>
+                  <a class="nav-link" href="#">Популярные направления</a>
+                  <a class="nav-link" href="#">Отзывы</a>
+                </nav>
+            </div>
+            <div class="col-auto">
+                <div class="header-phone">
+                    <a href="tel:+78003332222">8 (495) 989 10 98</a>
+                </div>
+                <div class="header-modal">
+                    <a href="">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</div>
+    <section class="main">
+        <div class="main-container">
+        <div class="container-fluid justify-content-start">
+            <div class="row">
+                <div class="col-auto main-content">
+                    <h1>Проведите яркое <span>корпоративное
+                        мероприятие за рубежом</span>
+и сократите расходы компании
+на организацию ивента до 30%</h1>
+                    <div class="main-line">
+                    </div>
+                    <p>
+                        Индивидуальная разработка, проведение и сопровождение выездных MICE-мероприятий «под ключ»
+                        от экспертов в сфере делового туризма
+                    </p>
+                    <a href="#">Бесплатная консультация</a>
+                    <p>
+                        <span>*Благодаря нашим партнерским скидкам</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="forms">
+        <div class="main-container">
+            <p class="section-forms-text1">
+                Получите лучшую идею
+            </p>
+            <p class="section-forms-text1">
+проведения вашего мероприятия
+            </p>
+            <p class="section-forms-text1">
+и прогноз стоимости уже через 30 минут!
+            </p>
+            <div class="section-forms-line">
+            </div>
+            <div class="container-fluid">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-auto">
+                        <form>
+                            <input type="text" class="form-control" id="form-name" placeholder="Имя">
+                             <select class="custom-select mr-sm-2 form-control"  id="form-event">
+        <option selected class="selected-active">Вид мероприятия</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+                            <input type="date" class="form-control" id="form-date" placeholder="Ориентировочная дата ">
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <form>
+                            <input type="tel" class="form-control" placeholder="Телефон">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 forms-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+
+</footer>
+
+<script src="vendors/jquery/dist/jquery.min.js"></script>
+<script src="vendors/pixlayout/jquery.pixlayout.min.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script>
+      $(document).ready(function () {
+       $('.main-img').click(function (event) {
+           $('.container').addClass('body-modal');
+       });
+       $('.close').click(function (event) {
+           $('.container').removeClass('body-modal')
+       });
+       var  ff = document.getElementById('openModa2');
+       var x = ff.length;
+       alert(x);
+    })
+</script>
+</body>
+</html>
+
+
+
