@@ -19,8 +19,13 @@ a {
   font-family: Roboto-bold;
   src: url("../fonts/Roboto-bold.ttf");
 }
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans.ttf");
+}
 .main-container {
   margin: 0 auto;
+  border: red 1px solid;
   /*width: 1172px;*/
   @media(min-width: 1800px){
     width: 1172px;
@@ -172,33 +177,33 @@ header {
 .forms {
   background-image: url("../img/background.png");
 background-size: 100%  100%;
-  height: 682px;
-  margin-top: 15px;
+  height: 689px;
+  margin-top: 10px;
   text-align: center;
-  padding-top: 73px;
-  padding-bottom: 68px;
+  padding-top: 70px;
+  padding-bottom: 65px;
 }
 .section-forms-text1 {
   font-family: Roboto-bold;
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 48px;
   color: #ffffff;
 }
 .section-forms-line {
   width: 98px;
   height: 2px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 18px;
   margin-bottom: 49px;
   background: #ddb379;
 }
 form {
   width: 390px;
   padding: 0 14.5px 0 14.5px;
-  height: 200px;
 }
 .form-control {
   border: white 1px solid;
+  height: 65px;
   background: none;
   border-radius: 0;
   color: #787878;
@@ -210,6 +215,7 @@ form {
 .form-btn {
   width: 748px;
   height: 65px;
+  margin-top: 3px;
   background: #ddb379;
   font-family: Roboto;
   color: white;
@@ -219,25 +225,49 @@ form {
 }
 ::-webkit-input-placeholder {
   font-family: Roboto;
+  text-align: center;
   color:#787878;
   font-size: 17px;
   letter-spacing: 0;
 }
 ::-moz-placeholder {
   font-family: Roboto;
+  text-align: center;
   color:#787878;
   font-size: 17px;
   letter-spacing: 0;
 }/* Firefox 19+ */
 :-moz-placeholder {
   font-family: Roboto;
+  text-align: center;
   color:#787878;
   font-size: 17px;
   letter-spacing: 0;
 }/* Firefox 18- */
 :-ms-input-placeholder {
  font-family: Roboto;
+  text-align: center;
   color:#787878;
   font-size: 17px;
   letter-spacing: 0;
+}
+.about-us {
+  height: 685px;
+  background: #00cc00;
+}
+footer {
+  height: 104px;
+  background: #1d2234;
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-text {
+  text-align: right;
+}
+.footer-logo {
+  background: #00ccff;
+  margin-left: 12px;
+  text-align: right;
 }
