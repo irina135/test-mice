@@ -102,13 +102,28 @@
                     <div class="col-auto">
                         <form>
                             <input type="tel" class="form-control" placeholder="Телефон">
+                            <div class="row">
+                                <div class="col">
+                            <input type="number" class="form-control form-control-number" placeholder="Кол-во человек">
+                                </div>
+                                <div class="col">
+                            <input type="number" class="form-control form-control-number" placeholder="Кол-во дней">
+                                </div>
+                            </div>
+                            <select class="custom-select mr-sm-2 form-control"  id="form-country">
+        <option selected class="selected-active">Швеция</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-12 forms-btn">
+                    <div class="col-12">
+                        <button type="submit" class="form-btn">Получить</button>
                     </div>
                 </div>
             </div>
