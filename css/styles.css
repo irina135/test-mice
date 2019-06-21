@@ -48,8 +48,23 @@ header {
   margin-top: 3px;
   margin-right: 60px;
 }
+@media (max-width: 1300px) {
+  .header-logo {
+    margin-right: 45px;
+  }
+}
+@media (max-width: 1300px) {
+  .header-logo img {
+    width: 220px;
+  }
+}
 .nav {
   width: 693px;
+}
+@media (max-width: 1300px) {
+  .nav {
+    width: 670px;
+  }
 }
 .nav a {
   font-family: Roboto;
@@ -132,6 +147,10 @@ header {
   margin-bottom: 50px;
   text-align: center;
   border: #dcb378 2px solid;
+  font-family: Roboto;
+  color: #787878;
+  font-size: 17px;
+  letter-spacing: 0;
 }
 .modal-tel:hover,
 .modal-btn:hover {
@@ -235,6 +254,7 @@ header {
   color: #ddb379;
 }
 .main-content a {
+  text-decoration: none;
   display: block;
   width: 263px;
   height: 65px;
