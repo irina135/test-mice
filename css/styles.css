@@ -250,6 +250,85 @@ header {
     margin-bottom: 20px;
   }
 }
+.menu-btn {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  left: 88%;
+  top: 10px;
+}
+@media (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  background: #dcb378;
+  top: 50%;
+  margin-top: -1px;
+  left: 2px;
+}
+.menu-btn span:before,
+.menu-btn span:after {
+  content: "";
+}
+.menu-btn span:before {
+  transform: translateY(-5px);
+  left: 0;
+}
+.menu-btn span:after {
+  transform: translateY(5px);
+  left: 0;
+}
+.menu-btn-active span {
+  height: 0;
+}
+.menu-btn-active span:before {
+  transform: rotate(45grad);
+}
+.menu-btn-active span:after {
+  transform: rotate(-45grad);
+}
+@media (max-width: 768px) {
+  .bbb {
+    display: none;
+  }
+}
+#section-mobile {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+  top: 40px;
+  left: 50%;
+  margin-left: -125px;
+  background: white;
+  border: #dcb378 5px solid;
+  z-index: 77;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+@media (min-width: 768px) {
+  #section-mobile {
+    display: none;
+  }
+}
+a.mobile-link {
+  font-family: Roboto;
+  color: #dcb378;
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.flex-column {
+  width: 250px;
+}
 .main-img {
   position: absolute;
   display: flex;
@@ -275,7 +354,7 @@ header {
 }
 @media (max-width: 576px) {
   .main-img {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 .main {
@@ -461,6 +540,7 @@ header {
   .main-content h1 {
     width: 300px;
     font-size: 18px;
+    text-shadow: 1px 1px 2px;
   }
 }
 .main-content a {
@@ -475,7 +555,7 @@ header {
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 0;
-  background: #c6a16e;
+  background: linear-gradient(#DCB378, #c6a16e);
   color: #ffffff;
 }
 @media (max-width: 1500px) {
@@ -800,24 +880,22 @@ form {
 }
 /*About us*/
 .about-us {
-  height: 685px;
+  height: auto;
+  margin-bottom: 40px;
   padding-top: 97px;
 }
 @media (max-width: 992px) {
   .about-us {
     padding-top: 60px;
-    height: 560px;
   }
 }
 @media (max-width: 768px) {
   .about-us {
     padding-top: 30px;
-    height: 410px;
   }
 }
 @media (max-width: 576px) {
   .about-us {
-    height: auto;
     margin-bottom: 20px;
   }
 }
@@ -877,6 +955,7 @@ form {
   width: 417px;
   /*height: 230px;*/
   height: auto;
+  box-shadow: gainsboro 8px 8px 8px;
 }
 @media (max-width: 768px) {
   .carousel-img img {
@@ -919,6 +998,7 @@ form {
   .carousel-text h3 {
     font-size: 16px;
     margin-bottom: 10px;
+    color: #57503e;
   }
 }
 .carousel-text p {
@@ -1027,7 +1107,7 @@ form {
 }
 .arrow-right {
   margin-left: 6px;
-  background: #DCB378;
+  background: linear-gradient(#DCB378, #c6a16e);
 }
 .carousel-line {
   /*width: 1140px;*/
