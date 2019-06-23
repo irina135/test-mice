@@ -26,7 +26,6 @@ a {
 .main-container {
   margin: 0 auto;
   width: 95%;
-  /*width: 1172px;*/
 }
 @media (min-width: 1800px) {
   .main-container {
@@ -177,7 +176,6 @@ header {
   top: 100px;
   left: 50%;
   margin-left: -300px;
-  /* margin-top: -200px;*/
   width: 600px;
   height: 400px;
   padding: 10px;
@@ -252,6 +250,7 @@ header {
     margin-bottom: 20px;
   }
 }
+/*гамбургер*/
 .menu-btn {
   display: block;
   width: 20px;
@@ -331,6 +330,11 @@ a.mobile-link {
 .flex-column {
   width: 250px;
 }
+/*main*/
+.main {
+  background-image: url("../img/background-main.png");
+  background-size: 100%  100%;
+}
 .main-img {
   position: absolute;
   display: flex;
@@ -340,7 +344,6 @@ a.mobile-link {
 }
 @media (max-width: 1500px) {
   .main-img {
-    /*width: 850px;*/
     width: 57%;
   }
 }
@@ -358,10 +361,6 @@ a.mobile-link {
   .main-img {
     opacity: 0.3;
   }
-}
-.main {
-  background-image: url("../img/background-main.png");
-  background-size: 100%  100%;
 }
 .main-img-background1 {
   background-image: url("../img/main_img1.png");
@@ -459,7 +458,6 @@ a.mobile-link {
   }
 }
 .main-img-margin {
-  /*margin-left: -315px;*/
   margin-left: -31.5%;
 }
 @media (max-width: 1224px) {
@@ -468,7 +466,6 @@ a.mobile-link {
   }
 }
 .main-content {
-  /*width: 670px;*/
   width: 57%;
   padding-top: 187px;
   text-align: left;
@@ -666,6 +663,7 @@ a.mobile-link {
     margin-bottom: 0;
   }
 }
+/*forms*/
 .forms {
   background-image: url("../img/background.png");
   background-size: 100%  100%;
@@ -824,6 +822,11 @@ form {
     font-size: 15px;
   }
 }
+@media (max-width: 568px) {
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+}
 ::-moz-placeholder {
   font-family: Roboto;
   text-align: center;
@@ -834,6 +837,11 @@ form {
 @media (max-width: 992px) {
   ::-moz-placeholder {
     font-size: 15px;
+  }
+}
+@media (max-width: 568px) {
+  ::-moz-placeholder {
+    font-size: 12px;
   }
 }
 /* Firefox 19+ */
@@ -849,6 +857,11 @@ form {
     font-size: 15px;
   }
 }
+@media (max-width: 568px) {
+  :-moz-placeholder {
+    font-size: 11px;
+  }
+}
 /* Firefox 18- */
 :-ms-input-placeholder {
   font-family: Roboto;
@@ -860,6 +873,11 @@ form {
 @media (max-width: 992px) {
   :-ms-input-placeholder {
     font-size: 15px;
+  }
+}
+@media (max-width: 568px) {
+  :-ms-input-placeholder {
+    font-size: 11px;
   }
 }
 .select-arrow {
@@ -880,13 +898,6 @@ form {
     top: 10px;
   }
 }
-/*
-.selected-ctyle {
-  font-family: Roboto;
-  color:#787878;
-  font-size: 17px;
-  letter-spacing: 0;
-}*/
 /*About us*/
 .about-us {
   height: auto;
@@ -1119,7 +1130,6 @@ form {
   background: linear-gradient(#DCB378, #c6a16e);
 }
 .carousel-line {
-  /*width: 1140px;*/
   width: 100%;
   margin-top: 32px;
   height: 2px;
@@ -1130,6 +1140,7 @@ form {
     margin-top: 20px;
   }
 }
+/*footer*/
 footer {
   height: 104px;
   background: #1d2234;
