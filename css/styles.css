@@ -38,6 +38,7 @@ a {
     width: 98%;
   }
 }
+/*header*/
 header {
   height: 86px;
 }
@@ -64,9 +65,9 @@ header {
   }
 }
 .header-logo {
-  width: 263px;
+  width: 200px;
   margin-top: 3px;
-  margin-right: 60px;
+  margin-right: 45px;
 }
 @media (max-width: 1500px) {
   .header-logo {
@@ -77,7 +78,7 @@ header {
 @media (max-width: 1300px) {
   .header-logo {
     margin-right: 45px;
-    width: 200px;
+    width: 190px;
   }
 }
 @media (max-width: 1200px) {
@@ -103,7 +104,7 @@ header {
   }
 }
 .nav {
-  width: 693px;
+  width: 670px;
 }
 @media (max-width: 1300px) {
   .nav {
@@ -168,14 +169,15 @@ header {
     display: none;
   }
 }
+/*pop-up*/
 .b-popup .b-popup-content {
   position: fixed;
   text-align: center;
   z-index: 77;
-  top: 50%;
+  top: 100px;
   left: 50%;
   margin-left: -300px;
-  margin-top: -200px;
+  /* margin-top: -200px;*/
   width: 600px;
   height: 400px;
   padding: 10px;
@@ -259,7 +261,7 @@ header {
   left: 88%;
   top: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .menu-btn {
     display: none;
   }
@@ -314,7 +316,7 @@ header {
   padding-left: 10px;
   padding-top: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #section-mobile {
     display: none;
   }
@@ -497,6 +499,7 @@ a.mobile-link {
   }
 }
 .main-content h1 {
+  width: 634px;
   margin-bottom: 26px;
   font-family: Roboto-bold;
   font-size: 40px;
@@ -877,12 +880,13 @@ form {
     top: 10px;
   }
 }
+/*
 .selected-ctyle {
   font-family: Roboto;
-  color: #787878;
+  color:#787878;
   font-size: 17px;
   letter-spacing: 0;
-}
+}*/
 /*About us*/
 .about-us {
   height: auto;
