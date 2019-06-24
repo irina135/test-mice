@@ -727,6 +727,7 @@ a.mobile-link {
   }
 }
 form {
+  position: relative;
   width: 390px;
   padding: 0 14.5px 0 14.5px;
 }
@@ -812,7 +813,7 @@ form {
 }
 ::-webkit-input-placeholder {
   font-family: Roboto;
-  text-align: center;
+  padding-left: 5px;
   color: #787878;
   font-size: 17px;
   letter-spacing: 0;
@@ -829,7 +830,7 @@ form {
 }
 ::-moz-placeholder {
   font-family: Roboto;
-  text-align: center;
+  padding-left: 5px;
   color: #787878;
   font-size: 17px;
   letter-spacing: 0;
@@ -847,7 +848,7 @@ form {
 /* Firefox 19+ */
 :-moz-placeholder {
   font-family: Roboto;
-  text-align: center;
+  padding-left: 5px;
   color: #787878;
   font-size: 17px;
   letter-spacing: 0;
@@ -865,7 +866,7 @@ form {
 /* Firefox 18- */
 :-ms-input-placeholder {
   font-family: Roboto;
-  text-align: center;
+  padding-left: 5px;
   color: #787878;
   font-size: 17px;
   letter-spacing: 0;
@@ -897,6 +898,32 @@ form {
   .select-arrow-img {
     top: 10px;
   }
+}
+input:valid {
+  border: white 1px solid;
+}
+#message,
+#message-phone {
+  background: white;
+  position: absolute;
+  font-style: italic;
+  color: red;
+  padding: 5px 5px 5px 5px;
+  border-radius: 8px;
+  left: 50px;
+  top: -30px;
+}
+.message-none {
+  display: none;
+}
+input:invalid {
+  box-shadow: 0 0 5px 1px white;
+}
+input:focus:invalid {
+  outline: none;
+}
+.modal-tel {
+  border: #dcb378 2px solid !important;
 }
 /*About us*/
 .about-us {
